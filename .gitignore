@@ -1,0 +1,9 @@
+./obj/
+./bin/
+LightsaberBladePlugin/obj/
+LightsaberBladePlugin/bin/
+SIEPluginIff/bin/
+SIEPluginIff/obj/
+IffTestingUtility/obj/
+IffUtilities/obj/
+IffTestingUtility/bin/

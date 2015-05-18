@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightsaberBladePlugin", "LightsaberBladePlugin\LightsaberBladePlugin.csproj", "{0A2BB20A-D511-449C-8375-4028D9822A5A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7E6CC93E-93D5-409D-9B49-EA8B0499FBEF} = {7E6CC93E-93D5-409D-9B49-EA8B0499FBEF}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwgIffLib", "SIEPluginIff\SwgIffLib.csproj", "{7E6CC93E-93D5-409D-9B49-EA8B0499FBEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IffTestingUtility", "IffTestingUtility\IffTestingUtility.csproj", "{B40CC435-D9B8-4EB2-8CF1-C206BA93C1E1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7E6CC93E-93D5-409D-9B49-EA8B0499FBEF} = {7E6CC93E-93D5-409D-9B49-EA8B0499FBEF}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A2BB20A-D511-449C-8375-4028D9822A5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A2BB20A-D511-449C-8375-4028D9822A5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A2BB20A-D511-449C-8375-4028D9822A5A}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{0A2BB20A-D511-449C-8375-4028D9822A5A}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{0A2BB20A-D511-449C-8375-4028D9822A5A}.Debug|x64.ActiveCfg = Debug|x64
+		{0A2BB20A-D511-449C-8375-4028D9822A5A}.Debug|x64.Build.0 = Debug|x64
+		{0A2BB20A-D511-449C-8375-4028D9822A5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A2BB20A-D511-449C-8375-4028D9822A5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A2BB20A-D511-449C-8375-4028D9822A5A}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{0A2BB20A-D511-449C-8375-4028D9822A5A}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{0A2BB20A-D511-449C-8375-4028D9822A5A}.Release|x64.ActiveCfg = Release|x64
+		{0A2BB20A-D511-449C-8375-4028D9822A5A}.Release|x64.Build.0 = Release|x64
+		{7E6CC93E-93D5-409D-9B49-EA8B0499FBEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E6CC93E-93D5-409D-9B49-EA8B0499FBEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E6CC93E-93D5-409D-9B49-EA8B0499FBEF}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{7E6CC93E-93D5-409D-9B49-EA8B0499FBEF}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{7E6CC93E-93D5-409D-9B49-EA8B0499FBEF}.Debug|x64.ActiveCfg = Debug|x64
+		{7E6CC93E-93D5-409D-9B49-EA8B0499FBEF}.Debug|x64.Build.0 = Debug|x64
+		{7E6CC93E-93D5-409D-9B49-EA8B0499FBEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E6CC93E-93D5-409D-9B49-EA8B0499FBEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E6CC93E-93D5-409D-9B49-EA8B0499FBEF}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{7E6CC93E-93D5-409D-9B49-EA8B0499FBEF}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{7E6CC93E-93D5-409D-9B49-EA8B0499FBEF}.Release|x64.ActiveCfg = Release|Any CPU
+		{B40CC435-D9B8-4EB2-8CF1-C206BA93C1E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B40CC435-D9B8-4EB2-8CF1-C206BA93C1E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B40CC435-D9B8-4EB2-8CF1-C206BA93C1E1}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{B40CC435-D9B8-4EB2-8CF1-C206BA93C1E1}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{B40CC435-D9B8-4EB2-8CF1-C206BA93C1E1}.Debug|x64.ActiveCfg = Debug|x64
+		{B40CC435-D9B8-4EB2-8CF1-C206BA93C1E1}.Debug|x64.Build.0 = Debug|x64
+		{B40CC435-D9B8-4EB2-8CF1-C206BA93C1E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B40CC435-D9B8-4EB2-8CF1-C206BA93C1E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B40CC435-D9B8-4EB2-8CF1-C206BA93C1E1}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{B40CC435-D9B8-4EB2-8CF1-C206BA93C1E1}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{B40CC435-D9B8-4EB2-8CF1-C206BA93C1E1}.Release|x64.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
